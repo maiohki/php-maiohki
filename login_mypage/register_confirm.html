@@ -1,0 +1,37 @@
+<?php
+mb_internal_encoding("utf8");
+
+$temp_pic_name=$_FILES['picture']['tmp_name'];
+
+$original_pic_name=$_FILES['picture']['name'];
+$path_filename='./image/'.$original_pic_name;
+
+move_uploaded_file($temp_pic_name,'./image/'.$original_pic_name);
+
+?>
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <title>マイページ登録</title>
+    <link rel="stylesheet" type="text/css" href="register_confirm.css">
+    </head>
+    
+    <body>
+    
+        <h1>会員登録</h1>
+        
+        <div class="main">
+        <p>こんにちは！　山田　花子さん</p>
+        <img src="./image/yamada.jpg">
+        <p>氏名:山田　花子</p>
+        <p>メール:yamada@internous.co.jp</p>
+        <p>パスワード:121212</p>
+        </div>
+        
+        <input type="submit"value="編集する">
+        
+            <input type="text" name=""
+        </form>
+    </body>
+</html>

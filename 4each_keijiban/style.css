@@ -1,0 +1,96 @@
+body{font-family: "Hiragino Kaku Gothic ProN", "メイリオ", sans-serif;
+}
+
+
+header{
+    top:  0px;
+    left: 0px;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+
+header ul{
+    float: left;
+    line-height: 40px;
+}
+
+header ul li{
+    float: left;
+    list-style: none;
+    padding-right: 80px;
+    color: white;
+    font-size: 20px;
+}
+
+.left{
+   float: left;
+    width: 70%;
+}
+
+.right{
+   float: right;
+    width: 25%;
+}
+
+.midashi h1{
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-left: 4px black solid;
+    border-bottom: 3px black solid;
+    padding-bottom:5px;
+    padding-left: 15px:
+    width: 300px;
+    font-size: 30px;
+}
+
+form{
+    float:left;
+    margin: 0 auto;
+    background-color: #fbfbfb;
+    border: 3px #ebebeb solid;
+    border-radius: 10px;
+    width: 1050px;
+}
+
+form h2{
+    border-left: 5px red solid;
+}
+
+
+form div{
+    padding: 15px;
+}
+
+
+.right .kiji h1{
+    text-align: left;
+    font-size: 30px;
+    border-bottom: 3px dotted black;
+}
+
+.right .rinku h1{
+    font-size: 30px;
+    text-align: left;
+    border-bottom: 3px dotted black;
+}
+
+.right .kategori h1{
+    font-size: 30px;
+    text-align: left;
+    border-bottom: 3px dotted black;
+
+}
+
+footer{
+    clear: both;
+    width: 100%;
+    height: 50px;
+    bottom: 0px;
+    font-size: 10px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    line-height: 60px;
+}

@@ -1,0 +1,105 @@
+body{
+    margin: 0 auto;
+    background-color: #f8f8f8;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    box-shadow: 2px 2px 4px lightgray;
+    text-align: center;
+}
+
+header img{
+    margin-top: 15px;
+    height: 50px;
+    padding-left: 40px;
+}
+
+.logout{
+    float: right;
+    margin-top: 50px;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+main{
+    clear: right;
+    width: 100%;
+    background-color: lightgray;
+}
+
+.box{
+    margin: 0 auto;
+    border: lightgray solid 2px;
+    width: 600px;
+    height:500px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: 4px 4px 4px white;
+}
+
+.box h2{
+    text-align: center;
+    border-bottom: solid 1px #31A263;
+    font-size: 20px;
+}
+
+.box .hello{
+    text-align: left;
+    margin-left: 30px;
+}
+
+.pic{
+    float: left;
+    width: 200px;
+    height: 180px;
+    border-top: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    margin: 30px 20px 50px 20px;
+}
+
+
+.box .basic_info{
+    float: left;
+    margin-top: 30px;
+}
+
+.box .comments{
+    clear: left;
+    border-top: solid 1px lightgray;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.submit_button{
+    padding: 10px 30px 4px 30px;
+    text-align: center;
+    color: white;
+    background-color: #31A263;
+    border-radius: 5px;
+    border-bottom: solid 2px gray;
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    margin-right: 70px;
+}
+
+footer{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    color: gray;
+    text-align: center;
+    line-height: 40px;
+    font-size: 13px;
+    border-top: lightgray solid 2px;
+}
